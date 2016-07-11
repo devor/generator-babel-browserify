@@ -1,0 +1,29 @@
+{
+  "name": "generator-babel-browserify",
+  "version": "0.1.0",
+  "description": "Generator that uses gulp, babel, and browserify.",
+  "main": "app.js",
+  "dependencies": {
+    "yeoman-generator": "^0.23.4"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devor/generator-babel-browserify.git"
+  },
+  "author": "Dave Devor <davedevor@gmail.com> (https://github.com/devor)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devor/generator-babel-browserify/issues"
+  },
+  "homepage": "https://github.com/devor/generator-babel-browserify#readme",
+  "devDependencies": {}
+}
