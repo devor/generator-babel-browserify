@@ -1,7 +1,7 @@
 {
   "name": "generator-babel-browserify",
-  "version": "0.1.0",
-  "description": "Generator that uses gulp, babel, and browserify.",
+  "version": "0.2.0",
+  "description": "Generator that creates a basic JS project that uses gulp, babel (babelify), and browserify.",
   "main": "app.js",
   "dependencies": {
     "yeoman-generator": "^0.23.4"
@@ -10,7 +10,11 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "babel",
+    "browserify",
+    "gulp",
+    "babelify"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
