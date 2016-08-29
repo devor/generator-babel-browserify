@@ -15,7 +15,7 @@ const config = {
         out: 'dist/',
         watch: ['./src/**/*.js']
     },
-    isDev : util.env.dev, // Config is dev if the dev flag is passed (gulp --dev)
+    isDev : util.env.dev // Config is dev if the dev flag is passed (gulp --dev)
 };
 
 /**
@@ -71,7 +71,7 @@ gulp.task('watch', ['scripts'], () => {
 /**
  * Our Default task gets executed when calling gulp.
  */
-gulp.task('default', () => {
+gulp.task('default', ['clean'], () => {
     if (config.isDev) {
         gulp.start('watch');
 
