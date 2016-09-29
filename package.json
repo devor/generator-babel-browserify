@@ -1,6 +1,6 @@
 {
   "name": "generator-babel-browserify",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Generator that creates a basic JS project that uses gulp, babel (babelify), and browserify.",
   "main": "app.js",
   "dependencies": {

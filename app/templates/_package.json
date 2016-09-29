@@ -6,7 +6,8 @@
   "dependencies": {},
   "scripts": {
     "prestart" : "npm install",
-    "start" : "gulp --dev",
+    "start": "NODE_ENV=dev gulp",
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
@@ -25,7 +26,6 @@
     "gulp": "^3.9.1",
     "gulp-if": "^2.0.1",
     "gulp-uglify": "^1.5.4",
-    "gulp-util": "^3.0.7",
     "uglify": "^0.1.5",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"

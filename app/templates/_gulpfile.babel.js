@@ -6,7 +6,6 @@ import gulp       from 'gulp';
 import gulpif     from 'gulp-if';
 import source     from 'vinyl-source-stream';
 import uglify     from 'gulp-uglify';
-import util       from 'gulp-util';
 
 const config = {
     filename: 'app',
@@ -15,7 +14,7 @@ const config = {
         out: 'dist/',
         watch: ['./src/**/*.js']
     },
-    isDev : util.env.dev // Config is dev if the dev flag is passed (gulp --dev)
+    isDev : process.env.NODE_ENV === 'dev'
 };
 
 /**
